@@ -18,13 +18,13 @@ for student_number in range(1, number_of_students + 1):
     average = calculate_average(activity1, activity2, activity3)
 
     if average >= 90:
-     status = "Excellent"
+     status = ["Excellent"]
     elif average >= 80:
-      status = "Very Good"
+      status = ["Very Good"]
     elif average >= 75:
-      status = "Passed"
+      status = ["Passed"]
     else:
-      status = "Failed"
+      status = ["Failed"]
     print("\n--- Student Result ---")
     print("Name:", name)
     print("Activity 1:", activity1)
